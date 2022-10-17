@@ -2,21 +2,33 @@
     background-color: rgb(44, 62, 80);
 }
 
-.col-6-home{
+.color-section{
+    background-color: rgb(26, 188, 156);
+}
+
+.padding-main{
+    padding: 2rem;
+}
+
+.social{
+    background-color: rgb(58, 84, 109);
+}
+
+.card-home{
     background-color: rgb(186, 75, 99);
 }
-.col-6-cake{
+.card-cake{
     background-color: rgb(30, 164, 182);
 }
-.col-6-tend{
+.card-tend{
     background-color: rgb(20, 15, 15);
 }
-.col-6-game{
+.card-game{
     background-color: rgb(28, 131, 193);
 }
-.col-6-safe{
+.card-safe{
     background-color: rgb(14, 56, 181);
 }
-.col-6-sub{
+.card-sub{
     background-color: rgb(204, 178, 163);
 }
