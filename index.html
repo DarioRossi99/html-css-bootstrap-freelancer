@@ -6,56 +6,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html-css-freelancer</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <body>
     
     <header class="color-nav">
         <nav>
-            <div class="container-sm d-flex justify-content-between">
-                <div class="block-left py-3 text-white">logo</div>
+            <div class="container-sm d-flex justify-content-between" style="align-items: baseline;">
 
-                <div class="block-right py-3 text-white">lista dei link</div>  
+                <div class="block-left py-3 text-white"><H5>START BOOTSTRAP</H5></div>
+
+                <div class="block-right py-3 text-white">
+                    
+                    <div class="hamburger">
+                        <i class="fa-solid fa-burger"></i>
+                    </div>
+
+                    <ul class="list-inline">
+                        <li class="list-inline-item">PORTFOLIO</li>
+                        <li class="list-inline-item">ABOUT</li>
+                        <li class="list-inline-item">CONTACT</li>
+                    </ul>
+
+                </div> 
+
             </div>
         </nav>
     </header>
 
     <main>
         <section class="color-section py-5">
-            <div class="container text-white text-center">intro</div>
+
+            <div class="container">
+
+                <div class="start-img">
+                    <div class="img-container">
+                        <img src="img/avatar.svg" class="" alt="">
+                    </div>
+                </div>
+
+                <div class="container text-white text-center">
+                    <h1>START BOOTSTRAP</h1>
+                
+
+                    <div class="starContanier" style="display: flex; align-items: center; justify-content: center;">
+                        <div class="star-line"></div>
+                        <i class="fa-solid fa-star" style="margin-left: 1rem; margin-right: 1rem"></i>
+                        <div class="star-line"></div>
+                    </div>
+                </div>
+
+                <ul class="list-inline">
+                    <li class="list-inline-item">GRAPHIC ARTIST</li>
+                    <li class="list-inline-item"> - WEB DESIGNER - </li>
+                    <li class="list-inline-item">ILLUSTRATOR</li>
+                  </ul>
+
+            </div>
+
         </section>
 
         <section class="padding-main">
             <div class="container">
 
-                <h3 class="text-center mb-3 py-3">PORTOFILIO</h3>
+                <div class="container text-black text-center" style="padding-bottom: 3rem;">
+                    <h2>START BOOTSTRAP</h2>
+                
+
+                    <div class="starContanier" style="display: flex; align-items: center; justify-content: center;">
+                        <div class="star-line2"></div>
+                        <i class="fa-solid fa-star" style="margin-left: 1rem; margin-right: 1rem"></i>
+                        <div class="star-line2"></div>
+                    </div>
+                </div>
 
                 <div class="row g-4">
 
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-md-6 col-lg-4">
                         <div class="card-home text-center p-3 border">
-                            <img src="" alt="" sizes="150px" srcset="">
+                            <img src="img/cabin.png" class="img-fluid" alt="">
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-6">
-                        <div class="card-cake text-center p-3 border">2</div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card-cake text-center p-3 border">
+                            <img src="img/cake.png" class="img-fluid" alt="">
+                        </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-6">
-                        <div class="card-tend text-center p-3 border">3</div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card-tend text-center p-3 border">
+                            <img src="img/circus.png" class="img-fluid" alt="">
+                        </div>
                     </div>
                     
-                    <div class="col-sm-12 col-md-6">
-                        <div class="card-game text-center p-3 border">4</div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card-game text-center p-3 border">
+                            <img src="img/game.png" class="img-fluid" alt="">
+                        </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-6">
-                        <div class="card-safe text-center p-3 border">5</div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card-safe text-center p-3 border">
+                            <img src="img/safe.png" class="img-fluid" alt="">
+                        </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-6">
-                        <div class="card-sub text-center p-3 border">6</div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card-sub text-center p-3 border">
+                            <img src="img/submarine.png" class="img-fluid" alt="">
+                        </div>
                     </div>
 
                 </div>
@@ -64,7 +126,16 @@
 
         <section class="padding-main color-section py-5">
             
-            <h3 class="text-center text-white mb-3 py-3">ABOUT ME</h3>
+            <div class="container text-white text-center" style="padding-bottom: 3rem;">
+                <h2>ABOUT</h2>
+            
+
+                <div class="starContanier" style="display: flex; align-items: center; justify-content: center;">
+                    <div class="star-line"></div>
+                    <i class="fa-solid fa-star" style="margin-left: 1rem; margin-right: 1rem"></i>
+                    <div class="star-line"></div>
+                </div>
+            </div>
 
             <div class="row g-3 justify-content-around">
 
@@ -85,7 +156,26 @@
         <section class="padding-main">
             <div class="container">
 
-                <h3 class="text-center mb-3 py-3">CONTACT ME</h3>
+                <div class="container text-black text-center">
+                    <h2>CONTACT ME</h2>
+                
+
+                    <div class="starContanier" style="display: flex; align-items: center; justify-content: center;">
+                        <div class="star-line2"></div>
+                        <i class="fa-solid fa-star" style="margin-left: 1rem; margin-right: 1rem"></i>
+                        <div class="star-line2"></div>
+                    </div>
+                </div>
+
+                <ul class="list-group list-group-flush">
+
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                    <li class="list-group-item">A fourth item</li>
+                    <li class="list-group-item">And a fifth one</li>
+
+                </ul>
 
             </div>
         </section>

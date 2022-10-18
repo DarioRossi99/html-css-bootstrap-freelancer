@@ -1,0 +1,71 @@
+.color-nav{
+    background-color: rgb(44, 62, 80);
+}
+
+.color-section{
+    background-color: rgb(26, 188, 156);
+}
+
+.padding-main{
+    padding: 2rem;
+}
+
+.social{
+    background-color: rgb(58, 84, 109);
+}
+
+.card-home{
+    background-color: rgb(186, 75, 99);
+}
+.card-cake{
+    background-color: rgb(30, 164, 182);
+}
+.card-tend{
+    background-color: rgb(20, 15, 15);
+}
+.card-game{
+    background-color: rgb(28, 131, 193);
+}
+.card-safe{
+    background-color: rgb(14, 56, 181);
+}
+.card-sub{
+    background-color: rgb(204, 178, 163);
+}
+
+.starContainer{
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    margin: auto;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    color: white;
+    justify-content: center;
+    display: flex;
+    padding-top: 2rem;
+    display: none;
+}
+
+.imh-container{
+    display: flex;
+    align-items: center;
+    max-width: 200px;
+    margin: auto;
+}
+
+.star-line{
+    background-color: white;
+    width: 100px;
+    padding: 0.2rem;
+}
+
+.star-line2{
+    background-color: black;
+    width: 100px;
+    padding: 0.2rem;
+}
+
