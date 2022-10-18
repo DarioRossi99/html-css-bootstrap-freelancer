@@ -33,9 +33,10 @@
     background-color: rgb(204, 178, 163);
 }
 
-.starContainer{
+.star-contenitore{
     display: flex;
     align-items: center;
+    justify-content: center;
     max-width: 300px;
     margin: auto;
 }
@@ -67,5 +68,18 @@
     background-color: black;
     width: 100px;
     padding: 0.2rem;
+}
+
+.buttom{
+    display: flex;
+    justify-content: center;
+}
+.contenitore-buttom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
+    margin: auto;
+    padding-top: 1rem;
 }
 
